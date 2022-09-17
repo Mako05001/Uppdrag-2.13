@@ -14,7 +14,7 @@ namespace uppdrag2._13
             Console.WriteLine("Hur mycket får tredje personen i lön");
             string strp3 = Console.ReadLine();
             int p3 = Convert.ToInt32(strp3);
-            int ptot = p1 + p2 + p3 / 3;
+            int ptot = p1 + p2 + p3;
             int ptotal = ptot / 3;
             Console.Write("Medel lönen är ");
             Console.WriteLine(ptotal);
